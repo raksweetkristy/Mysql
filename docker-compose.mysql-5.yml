@@ -1,0 +1,14 @@
+version: "3.5"
+
+services:
+  mysql:
+    image: mysql:5.7
+    hostname: mysql
+    container_name: mysql
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "ftTh(DXI!LEe7+gt"
+      MYSQL_USER: 'dev'
+      MYSQL_PASSWORD: 'ftTh(DXI!LEe7+gt'
