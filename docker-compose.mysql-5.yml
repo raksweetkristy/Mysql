@@ -9,6 +9,6 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: "ftTh(DXI!LEe7+gt"
+      MYSQL_ROOT_PASSWORD: "secret"
       MYSQL_USER: 'dev'
-      MYSQL_PASSWORD: 'ftTh(DXI!LEe7+gt'
+      MYSQL_PASSWORD: 'secret'
