@@ -1,5 +1,4 @@
-version: "3.5"
-
+version: '3.5'
 services:
   mysql:
     image: mysql:5.7
@@ -9,6 +8,8 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: "secret"
-      MYSQL_USER: 'dev'
-      MYSQL_PASSWORD: 'secret'
+      MYSQL_ROOT_PASSWORD: "psojvtw5am5lzh8t1s4q"
+      MYSQL_USER: "cms-prd"
+      MYSQL_PASSWORD: "psojvtw5am5lzh8t1s4q"
+    volumes:
+      - /etc/pointer_cms/mysql/:/var/lib/mysql
